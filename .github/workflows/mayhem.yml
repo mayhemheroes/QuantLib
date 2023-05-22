@@ -64,7 +64,7 @@ jobs:
           - mayhem/Mayhemfile_isECBcode
           - mayhem/Mayhemfile_parse
           - mayhem/Mayhemfile_parseFormatted
-          - mayhem/Mayhemfile_parsedISO
+          - mayhem/Mayhemfile_parseISO
 
     steps:
       - uses: actions/checkout@v3
