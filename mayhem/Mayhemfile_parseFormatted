@@ -1,0 +1,5 @@
+project: quantlib
+target: parseformatted
+cmds:
+  - cmd: /fuzz_parseFormatted
+    libfuzzer: true
