@@ -1,0 +1,5 @@
+project: quantlib
+target: Fuzz_BarrierOption
+cmds:
+  - cmd: /mayhem/Fuzz_BarrierOption
+    libfuzzer: true

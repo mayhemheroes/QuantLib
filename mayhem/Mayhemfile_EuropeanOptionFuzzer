@@ -1,0 +1,5 @@
+project: quantlib
+target: EuropeanOptionFuzzer
+cmds:
+  - cmd: /mayhem/EuropeanOptionFuzzer
+    libfuzzer: true

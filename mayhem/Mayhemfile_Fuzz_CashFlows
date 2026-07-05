@@ -1,0 +1,5 @@
+project: quantlib
+target: Fuzz_CashFlows
+cmds:
+  - cmd: /mayhem/Fuzz_CashFlows
+    libfuzzer: true

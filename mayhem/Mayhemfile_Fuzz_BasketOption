@@ -1,0 +1,5 @@
+project: quantlib
+target: Fuzz_BasketOption
+cmds:
+  - cmd: /mayhem/Fuzz_BasketOption
+    libfuzzer: true
