@@ -1,0 +1,5 @@
+project: quantlib
+target: parseiso
+cmds:
+  - cmd: /fuzz_parseISO
+    libfuzzer: true

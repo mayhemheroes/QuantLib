@@ -1,0 +1,5 @@
+project: quantlib
+target: isecbcode
+cmds:
+  - cmd: /fuzz_isECBcode
+    libfuzzer: true

@@ -1,0 +1,5 @@
+project: quantlib
+target: isasxcode
+cmds:
+  - cmd: /fuzz_isASXcode
+    libfuzzer: true

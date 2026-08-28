@@ -1,0 +1,5 @@
+project: quantlib
+target: parse
+cmds:
+  - cmd: /fuzz_parse
+    libfuzzer: true
